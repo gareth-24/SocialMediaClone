@@ -1,10 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function App(){
   return ( 
     <React.Fragment>
-      {/* <Header />
-      <TicketList /> */}
+      <Navbar />
     </React.Fragment>
   );
 }
