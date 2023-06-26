@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 function Tweet(props) {
   return (
     <React.Fragment>
-      <Card style={{ width: '18rem' }}>
+      <Card>
         <Card.Body>
           <Card.Title>{props.user}</Card.Title>
           <Card.Text>

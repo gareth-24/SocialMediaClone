@@ -21,6 +21,10 @@ code {
   margin-bottom: 30px;
 }
 
+.card {
+  background-color: #FAF9F6;
+}
+
 img {
   width: 175px;
 }
