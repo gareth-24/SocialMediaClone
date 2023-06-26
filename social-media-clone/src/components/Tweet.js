@@ -12,6 +12,8 @@ function Tweet(props) {
             <p>{props.status}</p>
             <p>{props.date}</p>
           </Card.Text>
+          <button className="btn btn-outline-primary">Like</button>
+          <button className="btn btn-outline-primary">Dislike</button>
         </Card.Body>
       </Card>
       <br />

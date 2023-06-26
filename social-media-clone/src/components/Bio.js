@@ -15,9 +15,15 @@ function Bio() {
       </Card.Text>
       <hr />
       <Row>
-        <Col>tweets</Col>
-        <Col>following</Col>
-        <Col>followers</Col>
+        <Col>
+          <Card.Link href="#">tweets</Card.Link>
+        </Col>
+        <Col>
+          <Card.Link href="#">followers</Card.Link>
+        </Col>
+        <Col>
+          <Card.Link href="#">following</Card.Link>
+        </Col>
       </Row>
     </Card.Body>
   </Card>
